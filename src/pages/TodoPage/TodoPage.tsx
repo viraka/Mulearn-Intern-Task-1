@@ -35,7 +35,6 @@ const TodoPage: React.FC = () => {
         if (todo !== "") {
             setTodos([...todos, { id: Math.random(), text: todo, completed: false }])
             setTodo("")
-            console.log(todos)
         }
     }
     return (
